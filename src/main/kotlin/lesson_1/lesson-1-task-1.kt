@@ -1,5 +1,7 @@
 package lesson_1
 
 fun main() {
-    println("Привет мир")
+    val orders = 75
+    println("Количество заказов: $orders")
+    println("Спасибо за покупку")
 }
