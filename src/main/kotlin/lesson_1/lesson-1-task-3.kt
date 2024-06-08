@@ -2,12 +2,13 @@ package lesson_1
 
 fun main (){
     val year = 1961
-    val takeOff = "09:07"
-    val hour = 10
-    val minute = 55
+    val hourTakeOff = "09"
+    val minuteTakeOff = "07"
+    val hourPlanting = 10
+    val minutePlanting = 55
 
     println("Год полета: $year")
-    println("Взлет: $takeOff")
-    println("Посадка: $hour:$minute")
+    println("Взлет: $hourTakeOff:$minuteTakeOff")
+    println("Посадка: $hourPlanting:$minutePlanting")
 
 }
