@@ -1,9 +1,9 @@
 package lesson_2
 
 fun main (){
-    val englishStudent: Double = 4.0
-    val englishScore: Double = 3.0+4.0+3.0+5.0
-    val sumScore: Double = englishScore / englishStudent
+    val englishStudentCount = 4
+    val englishScore: Float = 3.0f+4.0f+3.0f+5.0f
+    val sumScore: Float = englishScore / englishStudentCount
 
     println("Средний балл: $sumScore")
 
