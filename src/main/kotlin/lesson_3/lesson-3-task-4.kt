@@ -1,15 +1,21 @@
 package org.example.lesson_3
 
 fun main(){
-    val horizontalArea = "E"
-    val verticalArea = 2
+    var fromWhere = "E2"
+    var toWhere = "E4"
+    var strokeNumber = 1
 
-    val fromWhere = horizontalArea + verticalArea
+    var moveString = "$fromWhere-$toWhere; Номер хода: $strokeNumber"
 
-    val toWhere = horizontalArea + verticalArea + 2
-    val strokeNumber = 2
+    println(moveString)
 
-    println("Откуда: $fromWhere - Куда: $toWhere; Номер хода: $strokeNumber")
+    fromWhere = "D2"
+    toWhere = "D3"
+    strokeNumber = 2
+
+    moveString = "$fromWhere-$toWhere; Номер хода: $strokeNumber"
+
+    println(moveString)
 
     
     // В приложении шахматы, ходы отправляются на сервер в виде строки формата [откуда-куда;номер хода].
